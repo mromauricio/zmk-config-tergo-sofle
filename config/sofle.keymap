@@ -114,11 +114,11 @@
         base_layer {
             display-name = "Base";
             bindings = <
-&none  &none       &none           &none               &none             &none                                       &none     &none              &none             &none            &none                    &none
-&none  &kp Q       &kp W           &mt LEFT_BRACE E    &kp R             &kp T                                       &kp Y     &mt LEFT_BRACE U   &mt LEFT_BRACE I  &mt APOS O       &kp P                    &none
-&none  &mt APOS A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G                                       &kp H     &mt RIGHT_SHIFT J  &mt RCTRL K       &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &none
-&none  &kp Z       &kp X           &mt SEMICOLON C     &kp V             &kp B           &mo MEDIA       &mo ADJUST  &kp N     &kp M              &kp COMMA         &kp DOT          &kp FSLH                 &fiteclabs_email
-                   &trans          &none               &mo 6             &mt CAPS SPACE  &mo SYMB_NAV    &kp ENTER   &kp BSPC  &kp DEL            &none             &trans
+&trans  &none       &none           &none               &none             &none                                       &none     &none              &none             &none            &none                    &none
+&none   &kp Q       &kp W           &mt LEFT_BRACE E    &kp R             &kp T                                       &kp Y     &mt LEFT_BRACE U   &mt LEFT_BRACE I  &mt APOS O       &kp P                    &none
+&none   &mt APOS A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G                                       &kp H     &mt RIGHT_SHIFT J  &mt RCTRL K       &mt RIGHT_ALT L  &mt RIGHT_GUI SEMICOLON  &none
+&none   &kp Z       &kp X           &mt SEMICOLON C     &kp V             &kp B           &mo MEDIA       &mo ADJUST  &kp N     &kp M              &kp COMMA         &kp DOT          &kp FSLH                 &fiteclabs_email
+                    &trans          &none               &mo 6             &mt CAPS SPACE  &mo SYMB_NAV    &kp ENTER   &kp BSPC  &kp DEL            &none             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
