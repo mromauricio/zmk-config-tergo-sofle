@@ -84,8 +84,9 @@
         fiteclabs_email: fiteclabs_email {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp M &kp A &kp U &kp R &kp I &kp C &kp I &kp O &kp O &kp L &kp I &kp V &kp E &kp I &kp R &kp A &kp AT &kp F &kp I &kp T &kp E &kp C &kp L &kp A &kp B &kp S &kp DOT &kp O &kp R &kp G &kp DOT &kp B &kp R &kp SPACE &none>;
+            bindings = <&kp M &kp A &kp U &kp R &kp I &kp C &kp I &kp O &kp O &kp L &kp I &kp V &kp E &kp I &kp R &kp A &kp AT &kp F &kp I &kp T &kp E &kp C &kp L &kp A &kp B &kp S &kp DOT &kp O &kp R &kp G &kp DOT &kp B &kp R>;
             label = "FITECLABS_EMAIL";
+            tap-ms = <40>;
         };
     };
 
